@@ -42,7 +42,7 @@ The following six preprocessing objectives have been met:
 - The get_dummies() method is used to create variables for the text features, which are then stored in a new DataFrame
 The features from the DataFrame have been standardized using the StandardScaler fit_transform() function 
 
-![Crypto Deliverable 1](https://github.com/PatriciaCB1/Credit_Risk_Analysis/blob/main/Images/Naive%20Random%20Oversampler.png) 
+![Crypto Deliverable 1](https://github.com/PatriciaCB1/Cryptocurrencies/blob/main/Images/Crypto%20Deliverable%201.png) 
 
 ## Reducing Data Dimensions Using PCA
 
@@ -53,7 +53,7 @@ The following objectives were acheived:
 - The PCA algorithm reduced the dimensions of the X DataFrame down to three principal components 
 - The pcs_df DataFrame was created and has the following three columns, PC 1, PC 2, and PC 3, and has the index from the crypto_df DataFrame 
 
-![Crypto Deliverable 2](https://github.com/PatriciaCB1/Credit_Risk_Analysis/blob/main/Images/Naive%20Random%20Oversampler.png) 
+![Crypto Deliverable 2](https://github.com/PatriciaCB1/Cryptocurrencies/blob/main/Images/Crypto%20Deliverable%202.png) 
 
 ## Clustering Cryptocurrencies Using K-means
 
@@ -66,9 +66,9 @@ The followig clustering objectives were met:
     - Predictions are made on the K clusters of the cryptocurrencies’ data 
     - A new DataFrame is created with the same index as the crypto_df DataFrame and has the following columns: Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class 
 
-![Crypto Deliverable 3](https://github.com/PatriciaCB1/Credit_Risk_Analysis/blob/main/ImagesNaive%20Random%20Oversampler.png) 
+![Crypto Deliverable 3](https://github.com/PatriciaCB1/Cryptocurrencies/blob/main/Images/Crypto%20Deliverable%203.png) 
 
-![Elbow Curve](https://github.com/PatriciaCB1/Credit_Risk_Analysis/blob/main/Images/Naive%20Random%20Oversampler.png) 
+![Elbow Curve](https://github.com/PatriciaCB1/Cryptocurrencies/blob/main/Images/Elbow%20Curve.png) 
 
 ## Visualizing Cryptocurrencies Results
 
@@ -82,10 +82,10 @@ The following visualization goals were met:
 - A DataFrame is created that contains the clustered_df DataFrame index, the scaled data, and the CoinName and Class columns 
 - A hvplot scatter plot is created where the X-axis is "TotalCoinsMined", the Y-axis is "TotalCoinSupply", the data is ordered by "Class", and it shows the CoinName when you hover over the data point 
 
-![Crypto Deliverable 4](https://github.com/PatriciaCB1/Credit_Risk_Analysis/blob/main/Images/Naive%20Random%20Oversampler.png) 
+![Crypto Deliverable 4](https://github.com/PatriciaCB1/Cryptocurrencies/blob/main/Images/Crypto%20Deliverable%204.png) 
 
-![Crypto Scatterplot](https://github.com/PatriciaCB1/Credit_Risk_Analysis/blob/main/Images/Naive%20Random%20Oversampler.png) 
+![Crypto Scatterplot](https://github.com/PatriciaCB1/Cryptocurrencies/blob/main/Images/Crypto%20scatterplot.png) 
 
-![Crypto Table 4](https://github.com/PatriciaCB1/Credit_Risk_Analysis/blob/main/Images/Naive%20Random%20Oversampler.png) 
+![Crypto Table 4](https://github.com/PatriciaCB1/Cryptocurrencies/blob/main/Images/Crypto%20Table%204.png) 
 
-![Crypto 3D](https://github.com/PatriciaCB1/Credit_Risk_Analysis/blob/main/Images/Naive%20Random%20Oversampler.png)
+![Crypto 3D](https://github.com/PatriciaCB1/Cryptocurrencies/blob/main/Images/Crypto%203D.png)
