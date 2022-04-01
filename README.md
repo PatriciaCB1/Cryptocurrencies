@@ -1,7 +1,5 @@
 # Cryptocurrencies
 
-# Credit_Risk_Analysis
-
 ## Resources
 - Anaconda 4.11.0
 - Jupyter Notebook 6.0.3
